@@ -49,11 +49,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  22 .debug_ranges 00013f48  00000000  00000000  0009eec0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 23 .debug_line   000388d3  00000000  00000000  000b2e08  2**0
+ 23 .debug_line   000388c3  00000000  00000000  000b2e08  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 24 .debug_str    0000da58  00000000  00000000  000eb6db  2**0
+ 24 .debug_str    0000da58  00000000  00000000  000eb6cb  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 25 .debug_frame  00005080  00000000  00000000  000f9134  2**2
+ 25 .debug_frame  00005080  00000000  00000000  000f9124  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/projecto_tp.elf:     file format elf32-littlearm

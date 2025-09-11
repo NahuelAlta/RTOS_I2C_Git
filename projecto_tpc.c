@@ -17,11 +17,11 @@
 #include "definiciones.h"
 
 
-uint8_t    max30100_write_register         (uint8_t reg, uint8_t value) ;
-uint8_t max30100_read_register          (uint8_t reg);
-uint8_t max30100_read_interrupt_status  ();
-bool    max30100_enable_interrupts      (uint8_t interrupt_mask);
-void    max30100_init_with_interrupts   ();
+uint8_t     max30100_write_register         (uint8_t reg, uint8_t value) ;
+uint8_t     max30100_read_register          (uint8_t reg);
+uint8_t     max30100_read_interrupt_status  ();
+bool        max30100_enable_interrupts      (uint8_t interrupt_mask);
+void        max30100_init_with_interrupts   ();
 
 typedef struct Data_modulo_s {
     uint16_t R_LED;
@@ -44,14 +44,14 @@ Estructura_MAX30100_t   Struct_MAX30100;
 
 // // void gpio_check (void*pvParameters);
 void init_queues_and_stuff (){
-    MAX_Data_Queue      = xQueueCreate(1,sizeof(MAX_Data_t));
-    Valores_Filtrados   = xQueueCreate(1,sizeof(MAX_Data_t));
-    Constantes_vitales  = xQueueCreate(1,sizeof(MAX_Data_t));
-    Eventos_MAX30100    = xEventGroupCreate();
-    Struct_MAX30100.Data_Queue=MAX_Data_Queue;
-    Struct_MAX30100.Data_F_Queue=Valores_Filtrados;
-    Struct_MAX30100.SPO2_HR=Constantes_vitales;
-    Struct_MAX30100.Eventos=Eventos_MAX30100;
+    MAX_Data_Queue                  = xQueueCreate(1,sizeof(MAX_Data_t));
+    Valores_Filtrados               = xQueueCreate(1,sizeof(MAX_Data_t));
+    Constantes_vitales              = xQueueCreate(1,sizeof(MAX_Data_t));
+    Eventos_MAX30100                = xEventGroupCreate();
+    Struct_MAX30100.Data_Queue      =MAX_Data_Queue;
+    Struct_MAX30100.Data_F_Queue    =Valores_Filtrados;
+    Struct_MAX30100.SPO2_HR         =Constantes_vitales;
+    Struct_MAX30100.Eventos         =Eventos_MAX30100;
 }
 
 void gpio_check (void*pvParameters){
@@ -176,12 +176,10 @@ void   max30100_init_with_interrupts(){
         sleep_ms(100);
         printf("Entre a la subrutina y se pudo configurar\n");
     }
-
       // MODE_CONFIG reset bit
     if (gpio_get(PICO_INT_PIN)==0){
         max30100_read_interrupt_status();
     }
-
     // Configurar modo SPO2
     if (max30100_write_register(REG_MODE_CONFIG, 0x03)){
         printf("Se pudo configurar el modo\n");
