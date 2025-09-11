@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/rp2_common/hardware_uart",
+		"source" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/pico-sdk/src/rp2_common/hardware_uart"
+	}
+}

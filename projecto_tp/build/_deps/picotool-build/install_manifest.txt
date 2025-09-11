@@ -1,0 +1,7 @@
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool/picotool.exe
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool/picotoolTargets.cmake
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool/picotoolTargets-release.cmake
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool/picotoolConfig.cmake
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool/picotoolConfigVersion.cmake
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool/enc_bootloader.elf
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool/enc_bootloader_mbedtls.elf

@@ -1,0 +1,2 @@
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool-build/enc_bootloader/CMakeFiles/edit_cache.dir
+C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/build/_deps/picotool-build/enc_bootloader/CMakeFiles/rebuild_cache.dir

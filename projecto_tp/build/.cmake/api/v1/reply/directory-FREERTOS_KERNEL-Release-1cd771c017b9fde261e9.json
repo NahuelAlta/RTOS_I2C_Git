@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "FREERTOS_KERNEL",
+		"source" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2350_ARM_NTZ"
+	}
+}

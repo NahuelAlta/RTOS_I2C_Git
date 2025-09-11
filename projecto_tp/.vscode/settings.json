@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "queue.h": "c",
+        "task.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "functional": "c",
+        "filtro.h": "c",
+        "max30100.h": "c",
+        "max_module.h": "c",
+        "event_groups.h": "c",
+        "freertosconfig.h": "c",
+        "optional": "c",
+        "ostream": "c",
+        "system_error": "c",
+        "array": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "fastmath.h": "c",
+        "arm_neon.h": "c",
+        "signal.h": "c",
+        "freertos.h": "c"
+    }
+}
