@@ -6,8 +6,7 @@
 #include "hardware/i2c.h"
 #include "pico/binary_info.h"
 
-#include "arm_math"
-
+#include "fastmath.h"
 #include "FreeRTOS.h"
 #include "FreeRTOSConfig.h"
 

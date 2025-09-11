@@ -20,6 +20,7 @@
         "fastmath.h": "c",
         "arm_neon.h": "c",
         "signal.h": "c",
-        "freertos.h": "c"
+        "freertos.h": "c",
+        "i2c.h": "c"
     }
 }
