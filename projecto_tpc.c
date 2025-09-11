@@ -14,7 +14,7 @@
 #include "queue.h"
 #include "event_groups.h"
 
-#include "max_module.h"
+#include "definiciones.h"
 
 
 uint8_t    max30100_write_register         (uint8_t reg, uint8_t value) ;
