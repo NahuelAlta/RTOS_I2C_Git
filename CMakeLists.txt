@@ -21,7 +21,7 @@ project(projecto_tp CXX C ASM)
 pico_sdk_init()
 
 #Se añade el ejecutable.
-add_executable(projecto_tp projecto_tpc.c)
+add_executable(projecto_tp projecto_tpc.c freertos_task.c max30100.c)
 
 #Esto, es importantísimo. No me corrió el FreeRTOS sin haber seteado esto. En otros lados aparecía como ${CMAKE_CURRENT_LIST_DIR}/... pero no
 #Lo habia probado y no dada. no encontraba el destino de FreeRTOSConfig.h
@@ -39,6 +39,7 @@ add_executable(projecto_tp projecto_tpc.c)
 # Aclararlo haciendo ${CMAKE_CURRENT_LIST_DIR}/include (por ejemplo) 
 target_include_directories(projecto_tp PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}
+    ${CMAKE_CURRENT_LIST_DIR}/includes
     ${FREERTOS_KERNEL_PATH}/include     # ← FreeRTOS headers
     ${FREERTOS_KERNEL_PATH}/portable/GCC/RP2350_ARM_NTZ  # ← Port específico
     )

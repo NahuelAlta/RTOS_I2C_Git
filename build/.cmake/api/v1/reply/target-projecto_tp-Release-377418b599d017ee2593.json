@@ -40,7 +40,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 55,
+				"line" : 56,
 				"parent" : 0
 			},
 			{
@@ -58,7 +58,7 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 49,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -371,6 +371,10 @@
 				{
 					"backtrace" : 10,
 					"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/includes"
 				},
 				{
 					"backtrace" : 10,
@@ -708,8 +712,8 @@
 				6,
 				7,
 				8,
+				9,
 				10,
-				11,
 				12,
 				13,
 				14,
@@ -748,15 +752,15 @@
 				47,
 				48,
 				49,
+				50,
 				51,
-				52,
-				57,
-				61,
-				62,
+				53,
+				54,
+				59,
+				63,
 				64,
-				65,
+				66,
 				67,
-				68,
 				69,
 				70,
 				71,
@@ -781,7 +785,9 @@
 				90,
 				91,
 				92,
-				93
+				93,
+				94,
+				95
 			]
 		},
 		{
@@ -1063,6 +1069,10 @@
 				{
 					"backtrace" : 10,
 					"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/includes"
 				},
 				{
 					"backtrace" : 10,
@@ -1383,16 +1393,16 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				9,
-				50,
-				53,
-				54,
+				11,
+				52,
 				55,
 				56,
+				57,
 				58,
-				59,
 				60,
-				66
+				61,
+				62,
+				68
 			]
 		},
 		{
@@ -1690,6 +1700,10 @@
 				{
 					"backtrace" : 10,
 					"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/Projectos/projecto_tp/includes"
 				},
 				{
 					"backtrace" : 10,
@@ -2018,7 +2032,7 @@
 			},
 			"sourceIndexes" : 
 			[
-				63
+				65
 			]
 		}
 	],
@@ -2677,8 +2691,8 @@
 				6,
 				7,
 				8,
+				9,
 				10,
-				11,
 				12,
 				13,
 				14,
@@ -2717,16 +2731,16 @@
 				47,
 				48,
 				49,
+				50,
 				51,
-				52,
-				57,
-				61,
-				62,
+				53,
+				54,
+				59,
 				63,
 				64,
 				65,
+				66,
 				67,
-				68,
 				69,
 				70,
 				71,
@@ -2751,23 +2765,25 @@
 				90,
 				91,
 				92,
-				93
+				93,
+				94,
+				95
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				9,
-				50,
-				53,
-				54,
+				11,
+				52,
 				55,
 				56,
+				57,
 				58,
-				59,
 				60,
-				66
+				61,
+				62,
+				68
 			]
 		}
 	],
@@ -2777,6 +2793,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "projecto_tpc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "freertos_task.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "max30100.c",
 			"sourceGroupIndex" : 0
 		},
 		{

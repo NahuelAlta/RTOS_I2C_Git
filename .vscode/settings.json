@@ -21,6 +21,10 @@
         "arm_neon.h": "c",
         "signal.h": "c",
         "freertos.h": "c",
-        "i2c.h": "c"
+        "i2c.h": "c",
+        "binary_info.h": "c",
+        "definiciones.h": "c",
+        "gpio.h": "c",
+        "freertos_task.h": "c"
     }
 }
