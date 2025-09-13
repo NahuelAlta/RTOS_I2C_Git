@@ -15,24 +15,24 @@ Proyecto de monitoreo inalambrico de constantes vitales - PRIMEROS PASOS
   de los pacientes.
 
 2- Objetivo
-  El objetivo general en este trabajo está compuesto por 4 índices:
+  El objetivo general en este trabajo está compuesto por 2 índices:
     • Lograr realizar una comunicación con el módulo comercial MAX30100 a través del cual es 
       posible realizar mediciones de concentración de oxígeno y frecuencia cardíaca.
-    • Lograr filtrar los datos obtenidos de impurezas (ruido) y enviar las señales al ordenador
-      para su visualización. 
     • Visualizar, a través de un gráfico, las señales recibidas a lo largo del tiempo. 
-    • Implementar una subrutina que represente un caso de necesidad donde el paciente (o su acompañante)
-      realiza un llamado al personal médico.
-    • Implementar umbrales de "NO SITUADO", "NORMAL" y "CRÍTICO" que establezcan el estado de paciente
-      en función de las constantes monitoreadas (SPo2 y HR-heart rate-).
 
 3- Implementación
   A fin de reducir los costos implementados en el proyecto, se utilizó la arquitectura de RP2350, la cual
-  cuenta con capacidad para llevar a cabo una conexión inalambrica y, además, posee ejemplos de implementación
+  cuenta con capacidad para llevar a cabo un futura conexión inalambrica y, además, posee ejemplos de implementación
   de algoritmos para el cálculo y para la generación del algoritmo de encriptación SHA256. 
-  La manera en la cual se implementaría el sistema, sería a través de task de freertos asociadas a la obtención de datos,
-  filtrado de datos, chequeo de estado de obtención de datos por parte del módulo, filtrado de los datos y 
-  envío hacia el ordenador. 
+  La manera en la cual se implementaría el sistema, consistió en la compra e implementacion del módulo MAX30100 y su
+  posterior configuración por medio de escritura hacia lugares de memoria de dicho móduloi a través de I2C con la 
+  arquitectura pertinente. 
+  En cuanto al algoritmo implementado, se realizó un sistema basado en tareas, eventos y colas de freertos para evitar un posible
+  deadlock, entre las tareas encargadas de guardar los datos obtenidos por el módulo y la encargada de enviarlos al 
+  ordenador, o algún posible busy waiting. 
+  
+  3.1 Módulo MAX30100
+  3.2 Módulo CP2102
 
 4- Resultados
   
