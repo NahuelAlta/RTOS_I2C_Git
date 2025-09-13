@@ -25,6 +25,9 @@
         "binary_info.h": "c",
         "definiciones.h": "c",
         "gpio.h": "c",
-        "freertos_task.h": "c"
+        "freertos_task.h": "c",
+        "semphr.h": "c",
+        "uart.h": "c",
+        "cstdio": "c"
     }
 }

@@ -40,7 +40,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 56,
+				"line" : 57,
 				"parent" : 0
 			},
 			{
@@ -2990,6 +2990,12 @@
 		{
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
+			"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/pico-sdk/src/rp2_common/hardware_uart/uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
 			"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/FreeRTOS-Kernel/portable/MemMang/heap_4.c",
 			"sourceGroupIndex" : 0
 		},
@@ -3063,12 +3069,6 @@
 			"backtrace" : 5,
 			"compileGroupIndex" : 0,
 			"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 5,
-			"compileGroupIndex" : 0,
-			"path" : "C:/Users/Bangho/Desktop/Trabajos_material/Especialidad_SEMB/RTOS_y_arquitecturas/pico-sdk/src/rp2_common/hardware_uart/uart.c",
 			"sourceGroupIndex" : 0
 		},
 		{

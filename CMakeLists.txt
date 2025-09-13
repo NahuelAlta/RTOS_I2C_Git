@@ -50,6 +50,7 @@ pico_enable_stdio_uart(projecto_tp 0)
 target_link_libraries(projecto_tp 
     hardware_gpio
     hardware_i2c
+    hardware_uart
     FreeRTOS-Kernel-Heap4
     pico_stdlib)
     

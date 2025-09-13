@@ -4,12 +4,14 @@
     #include "pico/stdlib.h"
     #include "hardware/gpio.h"
     #include "hardware/i2c.h"
+    #include "hardware/uart.h"
     #include "pico/binary_info.h"
 
-    #include "fastmath.h"
+    #include "machine/fastmath.h"
     #include "FreeRTOS.h"
     #include "FreeRTOSConfig.h"
 
+    #include "semphr.h"
     #include "task.h"
     #include "queue.h"
     #include "event_groups.h"
@@ -50,7 +52,16 @@
     #define     Obtener_muestras            (1 << 0)
     #define     Filtrar                     (1 << 2)
     #define     Calcular_valores            (1 << 3)
-    
+    #define     Enviar_valores              (1 << 4)
+
+    #define UART_ID     uart0
+    #define BAUD_RATE   115200
+
+    // We are using pins 0 and 1, but see the GPIO function select table in the
+    // datasheet for information on which other pins can be used.
+    #define UART_TX_PIN 0
+    #define UART_RX_PIN 1
+
     typedef struct Data_modulo_s {
     uint16_t R_LED;
     uint16_t IR_LED;
@@ -59,9 +70,8 @@
 
     typedef struct Estructura_Modulo_s{
         QueueHandle_t       Data_Queue;
-        QueueHandle_t       Data_F_Queue;
-        QueueHandle_t       SPO2_HR;
         EventGroupHandle_t  Eventos;
+        SemaphoreHandle_t   Mutex;
     } Estructura_MAX30100_t;
 
 

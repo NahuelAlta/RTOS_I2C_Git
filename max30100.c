@@ -56,11 +56,12 @@ void        max30100_init_with_interrupts(){
     
     // Configurar SPO2 (100Hz, 16 bits)
     if(max30100_write_register(REG_SPO2_CONFIG, 0x07)){
+    //if(max30100_write_register(REG_SPO2_CONFIG, 0x1C)){    
         printf("Se pudo configurar el SPO2\n");
     }  // SPO2_CONFIG = 100Hz, 16bit
 
     // Configurar corriente de LEDs
-    if(max30100_write_register(REG_LED_CONFIG, 0xAA)){
+    if(max30100_write_register(REG_LED_CONFIG, 0x88)){
         printf("Se pudo configurar el Led\n");
     }  // LED_CONFIG = 50mA RED, 27mA IR
 
