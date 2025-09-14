@@ -15,6 +15,7 @@ Proyecto de monitoreo inalambrico de constantes vitales - PRIMEROS PASOS
 
 2- Objetivo
   El objetivo general en este trabajo está compuesto por 2 índices:
+  
     • Lograr realizar una comunicación con el módulo comercial MAX30100 a través del cual es 
       posible realizar mediciones de concentración de oxígeno y frecuencia cardíaca.
     • Visualizar, a través de un gráfico, las señales recibidas a lo largo del tiempo y que sus variaciones
@@ -76,6 +77,7 @@ Proyecto de monitoreo inalambrico de constantes vitales - PRIMEROS PASOS
 
 5- Trabajo futuro:
   El siguiente paso en dicho proyecto esta compuesto por las aristas restantes del mismo, las cuales son, en terminos generales:
+  
     • Establecer una conexión inalambrica entre dos puntos, ya sea por medio de una red local u otro tipo de red, donde uno de ellos
       sea el encargado de transmitir los datos obtenidos mientras que el restante sea el encargado de recibirlos y transmitirlos nuevamente
       hacia un posible software de monitoreo. 
