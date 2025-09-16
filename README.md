@@ -55,7 +55,7 @@ Proyecto de monitoreo inalambrico de constantes vitales - PRIMEROS PASOS
   Los datos son almacenados en una FIFO de 8 bits capaz de almacenar hasta 16 muestras. Como la resolución máxima es de 16 bits
   la fifo almacena los datos como: 
 
-                          | 15:8 LED IR | 7:0 LED R | 15:8 LED R | 7:0 LED R |
+                          | 15:8 LED IR | 7:0 LED IR | 15:8 LED R | 7:0 LED R |
   
   Por lo cual, para la obtención de los mismos, es necesario leer 2 lugares en la memoria. El módulo posee registros que 
   permiten saber donde está el puntero de lectura y el de escritura. Para garantizar una "armonía" en la coordinación del 
